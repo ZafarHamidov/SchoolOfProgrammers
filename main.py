@@ -68,7 +68,7 @@ def pick_winner(field):
         if field[i].count("-") == 0:
             c += 1
     if c == 3:
-        nig == False
+        nig = False
 # Result
     if x1 == True or x2 == True or x3 == True:
         return "X"
